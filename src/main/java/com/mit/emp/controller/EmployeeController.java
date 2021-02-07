@@ -30,7 +30,7 @@ public class EmployeeController {
 
 	@PostMapping("/save")
 	public String saveEmployee(@ModelAttribute Employee employee, Model model) {
-
+		System.out.println("Test");
 		Integer id = service.saveEmployee(employee);
 		String message = id + " Employee saved successfully";
 		model.addAttribute("message", message);
