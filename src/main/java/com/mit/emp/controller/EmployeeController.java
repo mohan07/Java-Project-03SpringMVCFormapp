@@ -54,7 +54,7 @@ public class EmployeeController {
 		service.deleteEmployeeById(id);
 		List<Employee> list = service.getAllEmployees();
 
-		String message = "Employee '" + id + "' deleted successfully";
+		String message = "Employee '" + id + "' deleted successfullly";
 		model.addAttribute("message", message);
 		model.addAttribute("list", list);
 
