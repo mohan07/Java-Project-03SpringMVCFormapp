@@ -81,7 +81,7 @@ public class EmployeeController {
 		 * String message = id + " Employee updated successfully";
 		 * model.addAttribute("message", message);
 		 */
-		return "redirect:all";
+		return "redirect:register";
 
 	}
 }
